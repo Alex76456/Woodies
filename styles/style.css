@@ -73,6 +73,7 @@
     color: #313235;
   }
   
+
   .header__button {
     background-color: #daa520;
     position: absolute;
@@ -122,8 +123,6 @@
   
   .section-title {
     position: absolute;
-    width: 211.44px;
-    height: 49px;
     left: 100px;
     top: 24px;
     font-size: 36px;
@@ -132,8 +131,6 @@
   }
   .section-subtitle {
     position: absolute;
-    width: 394.76px;
-    height: 98px;
     right: 100px;
     top: 0px;
     font-weight: 800;
