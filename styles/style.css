@@ -1,11 +1,11 @@
 .page {
     margin: 0 auto;
     font-family: "Nunito";
-    min-width: 1152px;
-    margin: 0px 120px;
+    min-width: 800px;
+    max-width: 1152px;
+    margin: 0px auto;
   }
   .header {
-    min-width: 1152px;
     height: 800px;
     background-image: url("../images/Rectangle4.png");
     background-position: top right;
@@ -226,7 +226,65 @@
   position: relative;
   margin-top:120px;
   display: flex;
+  border: 1px solid red;
 }
+.What-we-have__categories{
+  margin: 0;
+  padding: 0;
+  margin:130px auto 120px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width:952px;
+  width: calc(100% - 200px);
+  height:840px;
+  border: 1px solid red;
+  position: relative;
+  flex-wrap:wrap;
+}
+.What-we-have__card{
+  
+  position: relative;
+  width:280px;
+  height:400px;
+}
+.What-we-have__card-backimage{
+  z-index: -1;
+
+}
+.What-we-have__card-title{
+  position: absolute;
+  top:24px;
+  left:16px;
+}
+
+.What-we-have__card-image{
+  position: absolute;
+  top:88px;
+  left:1px;
+}
+.What-we-have__button{
+position: absolute;
+right: 16px;
+bottom: 24px;
+width:123px;
+height: 40px;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 6px;
+border: 1px solid #3E3F43;
+}
+
+
+
+
+
 
   .footer {
   }
